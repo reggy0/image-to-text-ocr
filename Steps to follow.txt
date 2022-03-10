@@ -1,0 +1,23 @@
+The code is written for Python version 2 and tested on Python 2.7.13. It is not tailored for Python 3.
+
+Main.py is our code that uses pytesser.py from google's tesseract OCR engine(open source) and converts the images available from the path_directory we provide at command line.
+
+
+1. Add Python's path to your system environemt variable - PATH.
+	e.g.     
+		C:\Python27
+
+2. Add Tesseract engine's path to your system environemt variable - PATH
+	e.g. 
+		C:\image-to-text-ocr\pytesser
+
+3. In windows command-line:
+	Navigate to image-to-text-ocr directory and type:
+		
+			python main.py <path to image's directory>
+	Usage example: 	python main.py C:\image-to-text-ocr\Test
+
+The code shall make a folder named "ocr-text" and store the text files after conversion.
+
+
+Happy coding !!
